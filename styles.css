@@ -68,3 +68,13 @@ html{
   background-color: #efc092;
   border-radius: 50%;
 }
+
+.dog-head::before{
+  left: -7px;
+  transform: rotate(50deg);
+}
+
+.dog-head::after{
+  right: -7px;
+  transform: rotate(-49deg);
+}
