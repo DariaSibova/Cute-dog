@@ -157,3 +157,55 @@ html{
   z-index: 10;
   box-shadow: 33px 0px 0px #000;
 }
+
+.dog-eyes:after {
+  content: "";
+  width: 92px;
+  height: 50px;
+  position: absolute;
+  top: -50px;
+  left: -24px;
+  background-color: #efc092;
+  border-radius: 50%;
+}
+
+.dog-ears {
+  width: 80px;
+  height: 50px;
+  position: absolute;
+  z-index: 0;
+  top: -2px;
+  border-radius: 150px 0 150px 0;
+  background-color: #efc092;
+}
+
+.dog-ears:after {
+  content: "";
+  width: 50px;
+  height: 30px;
+  position: absolute;
+  z-index: 0;
+  top: 8px;
+  left: 20px;
+  border-radius: 150px 0 150px 0;
+  transform: rotate(-176deg);
+  background-color: #fee2d2;
+}
+
+.ears-left {
+  left: -22px;
+  transform: rotate(-105deg);
+}
+.ears-right {
+  right: -22px;
+  transform: rotate(-22deg);
+}
+.dog-body {
+  width: 54px;
+  height: 60px;
+  position: absolute;
+  top: 120px;
+  left: calc(50% - 35px);
+  background-color: #d58b4e;
+  border-radius: 49px 0 0 20px;
+}
