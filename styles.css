@@ -111,3 +111,49 @@ html{
   background-color: #000;
   border-radius: 50%;
 }
+@keyframes tongue {
+  0% {
+    height: 10px;
+  }
+  30% {
+    height: 10px;
+  }
+  40% {
+    height: 20px;
+  }
+  60% {
+    height: 10px;
+  }
+  80% {
+    height: 20px;
+  }
+  90% {
+    height: 10px;
+  }
+  100% {
+    height: 10px;
+  }
+}
+
+.dog-tongue {
+  width: 20px;
+  height: 10px;
+  position: absolute;
+  top: 24px;
+  left: calc(50% - 10px);
+  background-color: #f4a4ad;
+  border-radius: 0 0 10px 10px;
+  animation: tongue 4s linear infinite;
+}
+
+.dog-eyes {
+  width: 10px;
+  height: 16px;
+  background-color: #000;
+  position: absolute;
+  top: 52px;
+  left: 28px;
+  border-radius: 50%;
+  z-index: 10;
+  box-shadow: 33px 0px 0px #000;
+}
