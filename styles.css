@@ -244,3 +244,36 @@ html{
   border-radius: 10px 10px 0 0;
   box-shadow: 33px 0 0 #fce2d3;
 }
+
+
+@keyframes tail {
+  0% {
+    transform: rotate(-47deg);
+  }
+  100% {
+    transform: rotate(-57deg);
+  }
+}
+.dog-tail {
+  width: 10px;
+  height: 50px;
+  position: absolute;
+  top: 120px;
+  left: calc(50% - 45px);
+  background-color: #ecc093;
+  transform: rotate(-47deg);
+  border-radius: 10px 0 0 0px / 50px 0 0 0px;
+  animation: tail .08s infinite alternate;
+}
+
+.ball {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+  border-radius: 50%;
+  background-color: #6E64F0;
+}
+
+
