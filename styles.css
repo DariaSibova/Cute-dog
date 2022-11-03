@@ -78,3 +78,26 @@ html{
   right: -7px;
   transform: rotate(-49deg);
 }
+
+.dog-mouth{
+  width: 60px;
+  height: 35px;
+  background-color: #fee2d2;
+  position: absolute;
+  bottom: -15px;
+  left: 20px;
+  z-index: 10;
+  border-radius: 50%;
+}
+
+.dog-mouth::after{
+  content: "";
+  width: 10px;
+  height: 40px;
+  background-color: #fee2d2;
+  position: absolute;
+  bottom: 30px;
+  left: 24px;
+  z-index: 10;
+  border-radius: 20px;
+}
