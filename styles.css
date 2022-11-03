@@ -101,3 +101,13 @@ html{
   z-index: 10;
   border-radius: 20px;
 }
+
+.dog-nose {
+  width: 16px;
+  height: 10px;
+  position: absolute;
+  top: 8px;
+  left: calc(50% - 8px);
+  background-color: #000;
+  border-radius: 50%;
+}
