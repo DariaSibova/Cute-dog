@@ -57,3 +57,14 @@ html{
   animation: head 6s linear infinite;
 }
 
+.dog-head::before,
+.dog-head::after{
+  content: "";
+  width: 79px;
+  height: 50px;
+  position: absolute;
+  z-index: 5;
+  top: 44px;
+  background-color: #efc092;
+  border-radius: 50%;
+}
